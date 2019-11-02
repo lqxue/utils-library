@@ -1,13 +1,14 @@
 package zzz.com.utilslibrary;
 
+import android.app.Activity;
 import android.os.Bundle;
-import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
 
-import zzz.com.lqxutils.utils.ToastUtils;
+import zzz.com.lqx_utils.ToastUtils;
 
-public class MainActivity extends AppCompatActivity {
+
+public class MainActivity extends Activity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -17,7 +18,7 @@ public class MainActivity extends AppCompatActivity {
         buttonToast.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                ToastUtils.showShortToastSafe("测试远程依赖");
+                ToastUtils.showShortToastSafe("测试lib");
             }
         });
     }

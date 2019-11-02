@@ -20,7 +20,9 @@ public final class Utils {
      * 获取ApplicationContext
      */
     public static Context getContext() {
-        if (context != null) return context;
+        if (context != null) {
+            return context;
+        }
         throw new NullPointerException("You should be initialized");
     }
 }

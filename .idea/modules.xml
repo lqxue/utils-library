@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/UtilsLibrary.iml" filepath="$PROJECT_DIR$/UtilsLibrary.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/lqx-utils/lqx-utils.iml" filepath="$PROJECT_DIR$/lqx-utils/lqx-utils.iml" />
+      <module fileurl="file://$PROJECT_DIR$/utils-library.iml" filepath="$PROJECT_DIR$/utils-library.iml" />
     </modules>
   </component>
 </project>
