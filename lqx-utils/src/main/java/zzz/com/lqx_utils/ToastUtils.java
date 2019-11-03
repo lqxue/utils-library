@@ -113,9 +113,9 @@ public final class ToastUtils {
      *
      * @param text 文本
      */
-    public static void showLongToast(CharSequence text) {
-        showToast(text, Toast.LENGTH_LONG);
-    }
+//    public static void showLongToast(CharSequence text) {
+//        showToast(text, Toast.LENGTH_LONG);
+//    }
 
 
     /**
@@ -124,9 +124,9 @@ public final class ToastUtils {
      * @param format 格式
      * @param args   参数
      */
-    public static void showLongToast(String format, Object... args) {
-        showToast(format, Toast.LENGTH_LONG, args);
-    }
+//    public static void showLongToast(String format, Object... args) {
+//        showToast(format, Toast.LENGTH_LONG, args);
+//    }
 
 
 
