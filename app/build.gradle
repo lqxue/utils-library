@@ -26,5 +26,6 @@ repositories {
 dependencies {
     implementation fileTree(include: ['*.jar'], dir: 'libs')
 //    implementation(name: 'lqx-utils-debug', ext: 'aar')
-        implementation 'com.github.lqxue:utils-library:3.0.0'
+        implementation 'com.github.lqxue:utils-library:3.0.1'
+    implementation 'com.squareup.retrofit2:retrofit:2.6.1'
 }
