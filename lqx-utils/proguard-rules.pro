@@ -23,3 +23,11 @@
 # If you keep the line number information, uncomment this to
 # hide the original source file name.
 #-renamesourcefileattribute SourceFile
+
+
+# 保持类名，又想保持里面的内容不被混淆
+#-keep class zzz.com.lqx_utils.** {*;}
+
+#-keep zzz.com.lqx_utils.* {
+#    public <methods>;
+#}

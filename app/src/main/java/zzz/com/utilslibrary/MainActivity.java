@@ -18,7 +18,7 @@ public class MainActivity extends Activity {
         buttonToast.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-//                ToastUtils.showLongToast("测试lib");
+                ToastUtils.showLongToast("测试lib");
             }
         });
     }
