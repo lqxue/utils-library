@@ -25,5 +25,6 @@ repositories {
 }
 dependencies {
     implementation fileTree(include: ['*.jar'], dir: 'libs')
-    implementation(name: 'lqx-utils-debug', ext: 'aar')
+//    implementation(name: 'lqx-utils-debug', ext: 'aar')
+        implementation 'com.github.lqxue:utils-library:3.0.0'
 }
