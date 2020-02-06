@@ -1,1 +1,1 @@
-include ':app', ':lqx-utils', ':loglibrary'
+include ':app', ':lqx-utils', ':loglibrary', ':jniapp'

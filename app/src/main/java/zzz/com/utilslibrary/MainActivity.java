@@ -5,7 +5,6 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-import sm_crypto.SmCrypto;
 import zzz.com.lqx_utils.ToastUtils;
 
 
@@ -19,9 +18,11 @@ public class MainActivity extends Activity {
         buttonToast.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                ToastUtils.showLongToast("测试lib");
-                new SmCrypto();
+                String s = new com.zzz.jniproject.MainActivity().onCreate();
+                ToastUtils.showLongToast(s);
             }
         });
+
+
     }
 }
