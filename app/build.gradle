@@ -25,7 +25,10 @@ repositories {
 }
 dependencies {
     implementation fileTree(include: ['*.jar'], dir: 'libs')
+    implementation project(path: ':loglibrary')
+    implementation project(path: ':lqx-utils')
 //    implementation(name: 'lqx-utils-debug', ext: 'aar')
-        implementation 'com.github.lqxue:utils-library:3.0.1'
-    implementation 'com.squareup.retrofit2:retrofit:2.6.1'
+//    implementation(name: 'loglibrary-debug', ext: 'aar')
+//        implementation 'com.github.lqxue:utils-library:3.0.2'
+//    implementation 'com.squareup.retrofit2:retrofit:2.6.1'
 }
