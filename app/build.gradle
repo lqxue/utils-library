@@ -24,14 +24,14 @@ repositories {
     }
 }
 dependencies {
-    implementation fileTree(include: ['*.jar','*.aar'], dir: 'libs')
-    implementation project(path: ':loglibrary')
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+//    implementation project(path: ':loglibrary')
     implementation project(path: ':lqx-utils')
     implementation project(path: ':jniapp')
     //发布的依赖中包含so
-//    implementation 'com.github.lqxue.utils-library:jniapp:3.0.5'
+//    implementation 'com.github.lqxue.utils-library:jniapp:3.0.6'
 //    implementation(name: 'lqx-utils-debug', ext: 'aar')
 //    implementation(name: 'loglibrary-debug', ext: 'aar')
-//        implementation 'com.github.lqxue:utils-library:3.0.3'
+//        implementation 'com.github.lqxue:utils-library:3.0.6'
 //    implementation 'com.squareup.retrofit2:retrofit:2.6.1'
 }
