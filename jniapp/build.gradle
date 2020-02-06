@@ -17,6 +17,7 @@ android {
         //方式1:放到任意目录但是说明
 //        sourceSets.main{
 //            jni.srcDirs = []
+              //so所在的位置
 //            jniLibs.srcDir "src/main/libs"
 //        }
         //方式二:在main下创建jniLibs文件夹
@@ -30,5 +31,5 @@ android {
 }
 
 dependencies {
-    api fileTree(dir: 'libs', include: ['*.jar'])
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
 }

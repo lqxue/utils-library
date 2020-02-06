@@ -24,5 +24,6 @@ android {
 
 dependencies {
     api fileTree(dir: 'libs', include: ['*.jar','*.aar'])
-    implementation project(path: ':loglibrary')
+    //发布依赖后,只依赖lqx-util会把他带上
+//    implementation project(path: ':loglibrary')
 }
