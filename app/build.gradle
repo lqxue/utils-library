@@ -2,7 +2,6 @@ apply plugin: 'com.android.application'
 
 android {
     compileSdkVersion 25
-    buildToolsVersion "25.0.2"
     defaultConfig {
         applicationId "zzz.com.utilslibrary"
         minSdkVersion 21
@@ -26,11 +25,11 @@ repositories {
 dependencies {
     implementation fileTree(include: ['*.jar'], dir: 'libs')
 //    implementation project(path: ':loglibrary')
-//    implementation project(path: ':lqx-utils')
-//    implementation project(path: ':jniapp')
+    implementation project(path: ':lqx-utils')
+    implementation project(path: ':jniapp')
     //发布的依赖中包含so
-    implementation 'com.github.lqxue.utils-library:jniapp:3.0.7'
-    implementation 'com.github.lqxue.utils-library:lqx-utils:3.0.7'
+//    implementation 'com.github.lqxue.utils-library:jniapp:3.0.7'
+//    implementation 'com.github.lqxue.utils-library:lqx-utils:3.0.7'
 //    implementation(name: 'lqx-utils-debug', ext: 'aar')
 //    implementation(name: 'loglibrary-debug', ext: 'aar')
 //    implementation 'com.squareup.retrofit2:retrofit:2.6.1'
