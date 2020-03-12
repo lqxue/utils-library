@@ -4,7 +4,7 @@ import android.os.Handler;
 import android.os.Looper;
 import android.widget.Toast;
 
-import com.token.loglibrary.LogUtil;
+//import com.token.loglibrary.LogUtil;
 
 public final class ToastUtils {
 
@@ -116,7 +116,7 @@ public final class ToastUtils {
      * @param text 文本
      */
     public static void showLongToast(CharSequence text) {
-        new LogUtil().showLog(text.toString());
+//        new LogUtil().showLog(text.toString());
         showToast(text, Toast.LENGTH_LONG);
     }
 

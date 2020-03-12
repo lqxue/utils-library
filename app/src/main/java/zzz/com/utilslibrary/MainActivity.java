@@ -5,7 +5,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-import zzz.com.lqx_utils.ToastUtils;
+//import zzz.com.lqx_utils.ToastUtils;
 
 
 public class MainActivity extends Activity {
@@ -15,13 +15,13 @@ public class MainActivity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         Button buttonToast  = (Button) findViewById(R.id.button_toast);
-        buttonToast.setOnClickListener(new View.OnClickListener() {
+        /*buttonToast.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 String s = new com.zzz.jniproject.MainActivity().onCreate();
                 ToastUtils.showLongToast(s);
             }
-        });
+        });*/
 
 
     }

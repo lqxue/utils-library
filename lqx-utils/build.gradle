@@ -22,7 +22,7 @@ android {
 }
 
 dependencies {
-    implementation fileTree(dir: 'libs', include: ['*.jar','*.aar'])
+//    implementation fileTree(dir: 'libs', include: ['*.jar','*.aar'])
     //发布依赖后,只依赖lqx-util会把他带上
-    implementation project(path: ':loglibrary')
+//    implementation project(path: ':loglibrary')
 }

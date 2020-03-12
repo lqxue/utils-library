@@ -23,10 +23,10 @@ repositories {
     }
 }
 dependencies {
-    implementation fileTree(include: ['*.jar'], dir: 'libs')
+//    implementation fileTree(include: ['*.jar'], dir: 'libs')
 //    implementation project(path: ':loglibrary')
-    compileOnly project(path: ':lqx-utils')
-    compileOnly project(path: ':jniapp')
+//    compileOnly project(path: ':lqx-utils')
+//    compileOnly project(path: ':jniapp')
     //发布的依赖中包含so
 //    implementation 'com.github.lqxue.utils-library:jniapp:3.0.7'
 //    implementation 'com.github.lqxue.utils-library:lqx-utils:3.0.7'
